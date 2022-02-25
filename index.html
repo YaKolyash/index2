@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div id="slide1" class="swiper-slide">
+                    <img class="swiper-img" src="img/girlandflowers.png" alt="Первый слайд">
+                </div>
+                <div id="slide2" class="swiper-slide">
+                    <img class="swiper-img" src="img/handwoman.png" alt="Второй слайд">
+                </div>
+                <div id="slide3" class="swiper-slide">
+                    <img class="swiper-img" src="img/handman.png" alt="Третий слайд">
+                </div>
+                <div id="slide4" class="swiper-slide">
+                    <img class="swiper-img" src="img/hands.png" alt="Четвертый слайд">
+                </div>
+                ...
+            </div>
+        </div>
+        <div class="swiper-button-prev">
+            <a class="slider-prev">
+                <p class="slider-prev__text">
+                    назад
+                </p>
+                <img class="arrow" src="img/svg/back.svg" alt="">
+            </a>
+        </div>
+        <div class="swiper-button-next">
+            <a class="slider-next">
+                <p class="slider-next__text">
+                    дальше
+                </p>
+                <img class="arrow" src="img/svg/next.svg" alt="">
+            </a>
+        </div>
+        <div class="swiper-pagination">
+            <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+        </div>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <header class="header container">
+            <div class="header__menu">
+                <ul class="header-nav active">
+                    <li class="nav__item">
+                        <a href="#page" class="nav__link">
+                            ГЛАВНАЯ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="">
+                            ПОРТФОЛИО
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#price" class="nav__link">
+                            СТОИМОСТЬ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contacts" class="nav__link">
+                            КОНТАКТЫ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="https://www.instagram.com">
+                            <img class="header__instagram" src="img/svg/instagram.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="overlay"></a>
+            <burger class="header__burger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </burger>
+        </header>
+        <section id="page" class="page">
+            <img class="vector__right1" src="img/svg/vector__960_1.svg" alt="">
+            <img class="vector__right2" src="img/svg/vector__960_2.svg" alt="">
+            <div class="page__container container">
+                <div class="page__title">
+                    <h2 class="page__title-text">
+                        фотосессии<br>
+                        в стиле ню
+                    </h2>
+                </div>
+                <div class="order__item">
+                    <a href="##" class="order__btn">
+                        <p class="order__btn-text">
+                            ЗАКАЗАТЬ
+                            СЪЕМКУ
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="page__rectangle"></div>
+            <img class="vector__left1" src="img/svg/vector__left1.svg" alt="">
+            <img class="vector__left2" src="img/svg/vector__left2.svg" alt="">
+        </section>
+        <section class="portfolio portfolio__block">
+            <div class="portfolio__img-btn">
+                <a class="portfolio-btn__block">
+                    <p class="portfolio-arrow__text">
+                        ПОРТФОЛИО
+                    </p>
+                    <img id="svg1" class="portfolio-btn__arrow" src="img/svg/arrow.svg" alt="">
+                    <img id="svg2" class="portfolio-btn__red-arrow" src="img/svg/arrow2.svg" alt="">
+                </a>
+            </div>
+        </section>
+        <section class="author">
+            <div class="author__description container">
+                <div class="author__header">
+                    <h1 class="author__header-text">
+                        о фотографе
+                    </h1>
+                </div>
+                <div class="author__info">
+                    <div class="author__photo">
+                        <img class="author__img" src="img/author.png" alt="">
+                    </div>
+                    <div class="author__text">
+                        <div class="author__title">
+                            <h2 class="author__title-text">
+                                Виктория Шестакова
+                            </h2>
+                        </div>
+                        <div class="author__subtitle">
+                            <div class="author__subtitle-text">
+                                Как профессиональный фотограф в стиле ню
+                                я начала работать несколько лет назад.
+                                В этом стиле меня привлекла возможность
+                                помогать людям понять насколько красиво
+                                их тело. Я вижу насколько более уверенными
+                                становятся люди, которые получили опыт съемки
+                                ню. Думаю, такой опыт будет полезен каждому.
+                            </div>
+                        </div>
+                        <div class="author__item">
+                            <a href="##" class="order__btn">
+                                <p class="order__btn-text">
+                                    ЗАКАЗАТЬ
+                                    СЪЕМКУ
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="author__rectangle"></div>
+        </section>
+        <section class="nu">
+            <img class="nu__left" src="img/svg/left.svg" alt="">
+            <div class="nu__title">
+                Ню является очень личным направлением
+                в фотографии. Этот стиль позволяет понять
+                и принять красоту всех изгибов своего тела.
+            </div>
+            <img class="nu__right" src="img/svg/right.svg" alt="">
+        </section>
+        <section class="example">
+            <div class="example__header container">
+                <h1 class="example__header-text">
+                    Примеры работ
+                </h1>
+            </div>
+            <div class="example__info container">
+                <div class="example__title">
+                    <h2 class="example__title-text">
+                        ИНДИВИДУАЛЬНАЯ ФОТОСЕССИЯ
+                        в воде
+                    </h2>
+                </div>
+                <div class="example__subtitle">
+                    <div class="example__subtitle-text">
+                        Фотосессия в воде отличается
+                        креативностью и неповторимостью кадров. Брызги и капли в сочетании
+                        со световыми эффектами позволяют получить необычные образы.
+                    </div>
+                </div>
+                <div class="example__item">
+                    <a href="##" class="order__btn">
+                        <p class="order__btn-text">
+                            ЗАКАЗАТЬ
+                            СЪЕМКУ
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="example__button-arrow">
+                <img class="example__img" src="img/girlandwater.png" alt="">
+                <a class="arrow__btn">
+                    <p class="arrow__btn-text">
+                        подробнее
+                    </p>
+                    <img id="svg__ex" class="arrow__btn-img" src="img/svg/arrow.svg" alt="">
+                    <img id="svg__ex2" class="arrow__btn-img2" src="img/svg/arrow2.svg" alt="">
+                </a>
+            </div>
+            <div class="example__photosession">
+                <div class="example__photosession-text">
+                    PHOTOSESSION
+                </div>
+            </div>
+            <div class="example__rectangle"></div>
+        </section>
+        <section class="individualy">
+            <picture class="individualy__block-img">
+                <source srcset="img/manbreast2.png" media="(max-width: 960px)">
+                <source srcset="img/manbreast2.png" media="(max-width: 320px)">
+                <img class="individualy__img" src="img/manbreast.png" alt="">
+            </picture>
+            <div class="individualy__text">
+                <div class="individualy__title">
+                    <h2 class="individualy__title-text">
+                        ИНДИВИДУАЛЬНАЯ ФОТОСЕССИЯ
+                        в студии
+                    </h2>
+                </div>
+                <div class="individualy__subtitle">
+                    <div class="individualy__subtitle-text">
+                        Главная цель фотосессии —
+                        не столько показать обнаженное<br>
+                        тело модели, сколько передать<br>
+                        через снимки ее индивидуальность<br>
+                        и эмоции от съемки.
+                    </div>
+                </div>
+                <div class="individualy__item">
+                    <a href="##" class="order__btn">
+                        <p class="order__btn-text">
+                            ЗАКАЗАТЬ
+                            СЪЕМКУ
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="individualy__button-arrow">
+                <a class="individualy-arrow__btn">
+                    <p class="arrow__btn-text">
+                        подробнее
+                    </p>
+                    <img id="svg__in" class="arrow__btn-img" src="img/svg/arrow.svg" alt="">
+                    <img id="svg__in2" class="arrow__btn-img2" src="img/svg/arrow2.svg" alt="">
+                </a>
+            </div>
+            <div class="individualy__rectangle"></div>
+        </section>
+        <section class="couple">
+            <div class="container">
+                <div class="couple__title">
+                    <h2 class="couple__title-text">
+                        парная ФОТОСЕССИЯ
+                    </h2>
+                </div>
+                <div class="couple__subtitle">
+                    <div class="couple__subtitle-text">
+                        Съемка предназначена для пар, которые не стесняются показать свои чувства и тела на камеру.
+                        Фотосессия
+                        в таком стиле способна освежить отношения пары
+                    </div>
+                </div>
+                <img class="couple__img" src="img/twoback.png" alt="">
+                <div class="couple__button-arrow">
+                    <a class="couple-arrow__btn">
+                        <p class="arrow__btn-text">
+                            подробнее
+                        </p>
+                        <img id="svg__co" class="arrow__btn-img" src="img/svg/arrow.svg" alt="">
+                        <img id="svg__co2" class="arrow__btn-img2" src="img/svg/arrow2.svg" alt="">
+                    </a>
+                </div>
+                <div class="couple__item">
+                    <a href="##" class="order__btn">
+                        <p class="order__btn-text">
+                            ЗАКАЗАТЬ
+                            СЪЕМКУ
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="couple__passion">
+                <div class="couple__passion-text">
+                    PASSION
+                </div>
+            </div>
+            <div class="couple__rectangle"></div>
+        </section>
+        <section class="woman">
+            <img class="vector__right3" src="img/svg/vector__right3.svg" alt="">
+            <img class="vector__right4" src="img/svg/vector__right4.svg" alt="">
+            <picture class="woman__img-block">
+                <source srcset="img/worth2.png" media="(max-width: 960px)">
+                <source srcset="img/worth2.png" media="(max-width: 320px)">
+                <img class="woman__img" src="img/womansit.png" alt="">
+            </picture>
+            <div class="woman__text">
+                <div class="woman__title">
+                    <h2 class="woman__title-text">
+                        женская
+                        ФОТОСЕССИЯ
+                        «Pure»
+                    </h2>
+                </div>
+                <div class="woman__subtitle">
+                    <div class="woman__subtitle-text">
+                        Красивый силуэт, игра света и тени,
+                        легкие ткани — все это в нежной
+                        портретной фотосессии в
+                        темной студии.
+                    </div>
+                </div>
+                <div class="woman__item">
+                    <a href="##" class="order__btn">
+                        <p class="order__btn-text">
+                            ЗАКАЗАТЬ
+                            СЪЕМКУ
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="woman__button-arrow">
+                <a class="woman-arrow__btn">
+                    <p class="arrow__btn-text">
+                        подробнее
+                    </p>
+                    <img id="svg__wo" class="arrow__btn-img" src="img/svg/arrow.svg" alt="">
+                    <img id="svg__wo2" class="arrow__btn-img2" src="img/svg/arrow2.svg" alt="">
+                </a>
+            </div>
+            <div class="woman__rectangle"></div>
+        </section>
+        <section class="all">
+            <div class="all__img-btn">
+                <a href="index-2.html" class="all__block">
+                    <p class="all-arrow__text">
+                        ПОСМОТРЕТЬ ВСЕ
+                    </p>
+                    <img id="svg__all" class="all-btn__arrow" src="img/svg/arrow.svg" alt="">
+                    <img id="svg__all2" class="all-btn__arrow2" src="img/svg/arrow2.svg" alt="">
+                </a>
+            </div>
+        </section>
+        <section class="order order__shooting">
+            <div class="order__img-btn">
+                <a class="order-btn__block">
+                    <p class="order-arrow__text">
+                        ЗАКАЗАТЬ СЪЕМКУ
+                    </p>
+                    <img id="svg__or" class="order-btn__arrow" src="img/svg/arrow.svg" alt="">
+                    <img id="svg__or2" class="order-btn__arrow2" src="img/svg/arrow2.svg" alt="">
+                </a>
+            </div>
+        </section>
+        <section class="shooting">
+            <img class="vector__left3" src="img/svg/vector__left3.svg" alt="">
+            <img class="vector__left4" src="img/svg/vector__left4.svg" alt="">
+            <img class="shooting__img" src="img/womaninwater.png" alt="">
+            <div class="shooting__rectangle"></div>
+            <div class="shooting__block-text container">
+                <div class="shooting__title">
+                    <h2 class="shooting__title-text">
+                        как проходит съемка
+                    </h2>
+                </div>
+                <div class="shooting__description">
+                    <div class="description__acquaintance">
+                        <div class="description__item">
+                            <div class="description__circle">
+                                <div class="description__number">
+                                    1
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description__text">
+                            <div class="description__title">
+                                ЗНАКОМСТВО
+                            </div>
+                            <div class="description__subtitle">
+                                Знакомство перед съемкой позволит
+                                вам чуствовать себя комфортнее
+                                во время фотосессии
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description__concept">
+                        <div class="description__item">
+                            <div class="description__circle">
+                                <div class="description__number">
+                                    2
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description__text">
+                            <div class="description__title">
+                                ВЫБОР КОНЦЕПЦИИ
+                            </div>
+                            <div class="description__subtitle subtitle__shooting">
+                                Обсудим детали фотосессии,
+                                выберем стиль съемки, ваш образ,
+                                локацию,
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description__photo">
+                        <div class="description__item">
+                            <div class="description__circle">
+                                <div class="description__number">
+                                    3
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description__text">
+                            <div class="description__title">
+                                СЪЕМКА,
+                                ОБРАБОТКА ФОТО
+                            </div>
+                            <div class="description__subtitle subtitle__text">
+                                За время фотосесии получается 200-250 кадров.
+                                Лучшие будут обработаны и отправлены вам не
+                                позднее чем через 3 недели
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="photography">
+            <div class="photography__block">
+                <div class="photography__item">
+                    <p class="photography__text">
+                        photography
+                    </p>
+                    <img class="photography__icon" src="img/svg/point.svg" alt="">
+                </div>
+                <div class="photography__item">
+                    <p class="photography__text">
+                        photography
+                    </p>
+                    <img class="photography__icon" src="img/svg/point.svg" alt="">
+                </div>
+                <div class="photography__item">
+                    <p class="photography__text">
+                        photography
+                    </p>
+                    <img class="photography__icon" src="img/svg/point.svg" alt="">
+                </div>
+                <div class="photography__item">
+                    <p class="photography__text">
+                        photography
+                    </p>
+                    <img class="photography__icon" src="img/svg/point.svg" alt="">
+                </div>
+                <div class="photography__item">
+                    <p class="photography__text">
+                        photography
+                    </p>
+                    <img class="photography__icon" src="img/svg/point.svg" alt="">
+                </div>
+                <div class="photography__item">
+                    <p class="photography__text">
+                        photography
+                    </p>
+                    <img class="photography__icon" src="img/svg/point.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="price" class="rates">
+            <div class="rates__title">
+                <h2 class="rates__title-text">
+                    Тарифы
+                </h2>
+            </div>
+            <div class="rates__info">
+                <div class="studio">
+                    <div class="studio__title">
+                        <div class="studio__title-text">
+                            в студии
+                        </div>
+                        <div class="studio-border"></div>
+                    </div>
+                    <div class="studio__subtitle">
+                        <ul class="studio__subtitle-text">
+                            <li class="flex">
+                                <img class="indent" src="img/svg/ellipse.svg" alt="">
+                                <p>Продолжительность: 1-2 часа</p>
+                            </li>
+                            <li class="flex">
+                                <img class="indent" src="img/svg/ellipse.svg" alt="">
+                                <p>Исходники: 200-250 шт.</p>
+
+                            </li>
+                            <li class="flex">
+                                <img class="indent" src="img/svg/ellipse.svg" alt="">
+                                <p>Количество фотографий: 50 шт.</p>
+                            </li>
+                            <li class="flex">
+                                <img class="indent" src="img/svg/ellipse.svg" alt="">
+                                <p>Помощь с подбором образа</p>
+                            </li>
+                            <li class="flex">
+                                <img class="indent" src="img/svg/ellipse.svg" alt="">
+                                <p>Обработка фотографий</p>
+                            </li>
+                            <li class="flex">
+                                <img class="indent" src="img/svg/ellipse.svg" alt="">
+                                <p>Помощь с позированием</p>
+                            </li>
+                            <li class="flex">
+                                <img class="indent" src="img/svg/ellipse.svg" alt="">
+                                <p>Аренда студии</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="studio__price">
+                        <div class="price-text">
+                            10 тыс.руб.
+                        </div>
+                    </div>
+                    <div class="studio__rate">
+                        <a class="studio__block">
+                            <p class="all-arrow__text">
+                                ЗАКАЗАТЬ СЪЕМКУ
+                            </p>
+                            <img id="svg__st" class="studio__arrow" src="img/svg/arrow.svg" alt="">
+                            <img id="svg__st2" class="studio__arrow2" src="img/svg/arrow2.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="studio__rectangle"></div>
+                </div>
+                <div class="location">
+                    <div class="location__title">
+                        <div class="location__title-text">
+                            на локации
+                        </div>
+                        <div class="location-border"></div>
+                    </div>
+                    <div class="location__subtitle">
+                        <ul class="location__subtitle-text">
+                            <li class="flex">
+                                <img class="indent" src="img/svg/ellipse.svg" alt="">
+                                <p>Продолжительность: 2-3 часа</p>
+                            </li>
+                            <li class="flex">
+                                <img class="indent" src="img/svg/ellipse.svg" alt="">
+                                <p>Исходники: 200-250 шт.</p>
+                            </li>
+                            <li class="flex">
+                                <img class="indent" src="img/svg/ellipse.svg" alt="">
+                                <p>Количество фотографий: 50 шт.</p>
+                            </li>
+                            <li class="flex">
+                                <img class="indent" src="img/svg/ellipse.svg" alt="">
+                                <p>Помощь с подбором образа</p>
+                            </li>
+                            <li class="flex">
+                                <img class="indent" src="img/svg/ellipse.svg" alt="">
+                                <p>Обработка фотографий</p>
+                            </li>
+                            <li class="flex">
+                                <img class="indent" src="img/svg/ellipse.svg" alt="">
+                                <p>Помощь с позированием</p>
+                            </li>
+                            <li class="flex">
+                                <img class="indent" src="img/svg/ellipse.svg" alt="">
+                                <p>Трансфер до локации</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="location__price">
+                        <div class="price-text">
+                            17 тыс.руб.
+                        </div>
+                    </div>
+                    <div class="location__rate">
+                        <a class="location__block">
+                            <p class="all-arrow__text">
+                                ЗАКАЗАТЬ СЪЕМКУ
+                            </p>
+                            <img id="svg__lo" class="location__arrow" src="img/svg/arrow.svg" alt="">
+                            <img id="svg__lo2" class="location__arrow2" src="img/svg/arrow2.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="location__rectangle"></div>
+                </div>
+            </div>
+        </section>
+        <section class="table__rates container">
+            <div class="rates__title">
+                <div class="rates__title-text">
+                    Тарифы
+                </div>
+            </div>
+            <table border="1px" class="table">
+                <tr class="tr">
+                    <th class="table__title active" id="1" data-tab="1">
+                        <a class="table__title-text">
+                            В студии
+                        </a>
+                    </th>
+                    <th class="table__title" id="2" data-tab="2">
+                        <a class="table__title-text">
+                            На локации
+                        </a>
+                    </th>
+                </tr>
+                <tr class="section active" id="1" data-tab-content="1">
+                    <td class="td" colspan="2">
+                        <div class="studio__title">
+                            <div class="studio__title-text">
+                                в студии
+                            </div>
+                        </div>
+                        <div class="studio__subtitle">
+                            <ul class="studio__subtitle-text">
+                                <li class="table__subtitle">
+                                    Продолжительность: 1-2 часа
+                                </li>
+                                <li class="table__subtitle">
+                                    Исходники: 200-250 шт.
+                                </li>
+                                <li class="table__subtitle">
+                                    Количество фотографий: 50 шт.
+                                </li>
+                                <li class="table__subtitle">
+                                    Помощь с подбором образа
+                                </li>
+                                <li class="table__subtitle">
+                                    Обработка фотографий
+                                </li>
+                                <li class="table__subtitle">
+                                    Помощь с позированием
+                                </li>
+                                <li class="table__subtitle">
+                                    Аренда студии
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="studio__price">
+                            <div class="price-text">
+                                10 тыс.руб.
+                            </div>
+                        </div>
+                        <div class="studio__rate">
+                            <a class="studio__block">
+                                <p class="all-arrow__text">
+                                    ЗАКАЗАТЬ СЪЕМКУ
+                                </p>
+                                <img id="svg__st3" class="studio__arrow" src="img/svg/arrow.svg" alt="">
+                                <img id="svg__st4" class="studio__arrow2" src="img/svg/arrow2.svg" alt="">
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="section" id="2" data-tab-content="2">
+                    <td class="td" colspan="2">
+                        <div class="studio__title">
+                            <div class="studio__title-text">
+                                На локации
+                            </div>
+                        </div>
+                        <div class="studio__subtitle">
+                            <ul class="studio__subtitle-text">
+                                <li class="table__subtitle">
+                                    Продолжительность: 2-3 часа
+                                </li>
+                                <li class="table__subtitle">
+                                    Исходники: 200-250 шт.
+                                </li>
+                                <li class="table__subtitle">
+                                    Количество фотографий: 50 шт.
+                                </li>
+                                <li class="table__subtitle">
+                                    Помощь с подбором образа
+                                </li>
+                                <li class="table__subtitle">
+                                    Обработка фотографий
+                                </li>
+                                <li class="table__subtitle">
+                                    Помощь с позированием
+                                </li>
+                                <li class="table__subtitle">
+                                    Трансфер до локации
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="studio__price">
+                            <div class="price-text">
+                                17 тыс.руб.
+                            </div>
+                        </div>
+                        <div class="studio__rate">
+                            <a class="rate__block">
+                                <p class="all-arrow__text">
+                                    ЗАКАЗАТЬ СЪЕМКУ
+                                </p>
+                                <img id="svg__lo3" class="all-btn__arrow" src="img/svg/arrow.svg" alt="">
+                                <img id="svg__lo4" class="all-btn__arrow2" src="img/svg/arrow2.svg" alt="">
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="rate__rectangle"></div>
+        </section>
+        <section id="contacts" class="contacts">
+            <div class="contacts__info">
+                <div class="contacts__title">
+                    <h2 class="contacts__title-text">
+                        Контакты
+                    </h2>
+                </div>
+                <ul class="contacts__nav">
+                    <li class="conacts__nav-item">
+                        <img class="contacts__icon" src="img/svg/email.svg" alt="">
+                        <a class="contacts__nav-link">
+                            Shestakovaphoto@gmail.com
+                        </a>
+                    </li>
+                    <li class="conacts__nav-item">
+                        <img class="contacts__icon" src="img/svg/telegram.svg" alt="">
+                        <a class="contacts__nav-link">
+                            +7 (909) 500-21-20
+                        </a>
+                    </li>
+                    <li class="conacts__nav-item">
+                        <img class="contacts__icon" src="img/svg/instagram.svg" alt="">
+                        <a class="contacts__nav-link">
+                            viktoriaaaae
+                        </a>
+                    </li>
+                </ul>
+                <div class="contacts__item">
+                    <a href="##" class="contacts-order__btn">
+                        <p class="order__btn-text">
+                            ЗАКАЗАТЬ
+                            СЪЕМКУ
+                        </p>
+                    </a>
+                </div>
+                <div class="contacts__block">
+                    <img class="contacts__img" src="img/worth.png" alt="">
+                </div>
+            </div>
+            <div class="contacts__rectangle"></div>
+        </section>
+        <footer class="footer ">
+            <div class="footer__container">
+                <ul class="footer__nav">
+                    <li class="footer-nav__item">
+                        <a class="nav__link" href="#page">
+                            ГЛАВНАЯ
+                        </a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="nav__link" href="index-2.html">
+                            ПОРТФОЛИО
+                        </a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="nav__link" href="#price">
+                            СТОИМОСТЬ
+                        </a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a class="nav__link" href="#contacts">
+                            КОНТАКТЫ
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer__icon">
+                    <div class="nav__item-instagram">
+                        <a href="https://www.instagram.com" class="nav__link-instagram">
+                            <img class="footer__svg" src="img/svg/instagram2.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="nav__item-telegram">
+                        <a href="">
+                            <img class="footer__svg" src="img/svg/telegram.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <section class="popup">
+            <div class="popup__body">
+                <div class="popup__content">
+                    <a href="##" class="popup__close active">
+                        <img src="img/svg/krest.svg" alt="">
+                    </a>
+                    <div class="form__title">
+                        <div class="form__title-text">
+                            ОСТАВЬТЕ ЗАЯВКУ</br>
+                            ДЛЯ ЗАПИСИ НА СЪЕМКУ
+                        </div>
+                    </div>
+                    <p class="form-format">
+                        Формат съемки
+                    </p>
+                    <form class="form">
+
+
+                        <!-- Hidden Required Fields -->
+                        <input type="hidden" name="Имя" value="Site Name">
+                        <input type="hidden" name="Email" value="nikalyaj-shadrin@yandex.ru">
+                        <input type="hidden" name="Телефон" value="Form Subject">
+                        <!-- END Hidden Required Fields -->
+
+
+                        <div class="select">
+                            <select class="form__select">
+                                <option value="">
+                                    <p class="form__select-text">
+                                        В студии
+                                    </p>
+                                </option>
+                                <option value="">
+                                    <p class="form__select-text">
+                                        На локации
+                                    </p>
+                                </option>
+                            </select>
+                        </div>
+                        <div id="name" class="form__item">
+                            <p class="form-text" data-validate="Обязательное поле">
+                                ФИО*
+                            </p>
+                            <input class="form__line" type="text" required>
+                        </div>
+                        <div id="phone" class="form__item tel" data-validate="Обязательное поле" required>
+                            <p class="form-text">
+                                Телефон*
+                            </p>
+                            <input class="form__line" id="tel" type="tel" required>
+                        </div>
+                        <div id="email" class="form__item" required data-validate="Обязательное поле">
+                            <p class="form-text">
+                                E-mail*
+                            </p>
+                            <input class="form__line" type="email" required>
+                        </div>
+                        <div class="form-arrow">
+                            <button id="form__button" type="submit" class="form-arrow__btn">
+                                <p class="form__btn-text">
+                                    отправить
+                                </p>
+                                <img id="svd__form" class="form__btn-img" src="img/svg/arrow.svg" alt="">
+                                <img id="svd__form2" class="form__btn-img2" src="img/svg/arrow2.svg" alt="">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="popup2" class="popup2">
+            <div class="popup__body2">
+                <div class="popup__content-check">
+                    <div class="popup__circle">
+                        <img class="popup__check" src="img/svg/check.svg" alt="">
+                    </div>
+                    <div class="check__title">
+                        <div class="check__title-text">
+                            заявка отправлена
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="jquery.maskedinput.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
